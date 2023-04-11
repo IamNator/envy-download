@@ -4,7 +4,7 @@
 wget https://github.com/IamNator/envy-download/raw/main/archive.zip
 
 # Unzip the file
-unzip archive.zip
+unzip archive.zip -d archive
 
 cd archive
 
