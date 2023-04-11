@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download the zip file from GitHub
-wget https://github.com/IamNator/envy-download/raw/main/archive.zip
+curl -L https://github.com/IamNator/envy-download/raw/main/archive.zip -o archive.zip
 
 # Unzip the file
 unzip archive.zip -d archive
